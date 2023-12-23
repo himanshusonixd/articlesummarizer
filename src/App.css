@@ -1,0 +1,207 @@
+html{
+  
+ /* background-color:  #f8efed; */
+ background-color: #e2e2e2;
+
+ 
+}
+body {
+  /* overflow-y: hidden; Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.main{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  /* font-size: larger; */
+
+}
+
+.nav-bar{
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10vh;
+}
+.imagetext{
+ height: 40px ;
+ width: 40px;
+  display: flex;
+gap: 1rem;
+text-align: center;
+align-items: center;
+padding: 5px;
+font-size: 1.2rem;
+font-weight: 700;
+}
+.logo{
+  height: 100% ;
+  width: 100%;
+
+}
+
+
+/* CSS */
+.button-35 {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  /* flex: 1 1 auto; */
+  /* font-family: Inter,sans-serif; */
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-35:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+.specialtext{
+  
+  background: #00221A;
+background: radial-gradient(circle farthest-side at top center, #00221A 0%, #717977 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+.Search-section-container{
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+
+
+
+}
+
+.Searchbar-form{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 35vw;
+ height: 5vh;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+text-align: center;
+}
+.Searchbar-form input{
+  
+  width: 20vw;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+
+}
+.Searchbar-form button{
+  
+  
+  border:1px solid rgba(0, 0, 0, 0.273);
+  border-radius: 3px;
+  outline: none;
+  background: transparent;
+  margin-right: 5px;
+  
+}
+
+.urldiv{
+  align-items: center;
+  font-size: small;
+  color: blue;
+  margin-top: 3vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffffa8;
+  width: 35vw;
+  height: 5vh;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 6px;
+  cursor: pointer;
+
+
+
+
+}
+
+
+.summary-div{
+
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+ 
+
+
+
+}
+
+.summary-box{
+  display: flex;
+  margin-top: 10px;
+text-align: justify;
+/* border: 1px solid rgba(99, 98, 98, 0.464); */
+padding: 1vh;
+flex-wrap: wrap;
+
+
+
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+ .Searchbar-form{
+  width: 80vw;
+ }
+ .Searchbar-form input{
+  width: auto;
+  padding: 10px ;
+ }
+ .Searchbar-form button{
+  font-size: larger;
+  
+ }
+ .urldiv{
+  width: 80vw;
+ }
+ .summary-div{
+  width: 85vw;
+ }
+ .summary-box{
+  padding: 20px;
+ }
+}
